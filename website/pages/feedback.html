@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<!-- This page was created by Aditya Patel.-->
+		<title>Academic's of Aditya</title>
+		<link rel="stylesheet" href="../css/mystyle.css">
+	</head>
+	
+	<body>
+		<ul class = "navbar">
+			<li><a href="../index.html">Home Page</a></li>
+			<li><a href="journey.html">Journey</a></li>
+			<li><a href="lifestyle.html">Lifestyle</a></li>
+			<li><a href="hobbies.html">Hobbies and Activities</a></li>
+			<li><a href="memories.html">Memories</a></li>
+			<li><a href="Academic's.html">Academic's</a></li>
+			<li>Feedback</li>
+			</ul>
+<h1>Registration Form</h1><hr></br></br>
+
+<h2>Registration Form</h2>
+	<Form action="/action.php">
+		<input type="text" placeholder="username" />
+		<br />
+		<br />
+		<input type="password" placeholder="password" />
+		<br /><br />
+		<h4>How was My Website</h4>
+		<textarea placeholder="please give your valuable feedback here.." rows="10"/></textarea>
+		<br />
+		<input type="submit" value="Submit" />
+
+		<button onclick="typeWriter()">click me to learn how to fall asleep instantly !</button>
+		<br>
+		<div class="tooltip">hover over me for a tip
+			<span class="tooltiptext">this text is about aditya</span>
+		  </div>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Close your eyes then think of a dream place it can be any thing calm sea,comfy room or a mountain with a view it can be any thing and imagen staying there';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+<h3>Hover over the box </h3>
+<br>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>3D</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>D3</h2>
+    </div>
+  </div>
+</div>
